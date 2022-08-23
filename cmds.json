@@ -1,0 +1,32 @@
+{
+  "name": "poll",
+  "description": "Poll management commands",
+  "options": [
+    {
+      "type": 1,
+      "name": "start",
+      "description": "Starts a poll",
+      "options": [
+        {
+          "type": 3,
+          "name": "topic",
+          "description": "The topic of the poll",
+          "required": true
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "name": "stop",
+      "description": "Stops a poll",
+      "options": [
+        {
+          "type": 3,
+          "name": "poll-message-id",
+          "description": "The message ID of the poll",
+          "required": true
+        }
+      ]
+    }
+  ]
+}
